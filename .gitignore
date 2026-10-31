@@ -1,0 +1,111 @@
+# secrets/
+# paysim.csv
+# paysim_shuffled.csv
+# archive (1).zip
+# kinesis-producer-local_accessKeys.csv
+# __pycache__/
+# *.pyc
+# train_data/
+# ################
+# RAG_Systems/Retriever_3_docs_on_guidelines/raw
+
+# ################
+# logs/
+# *.log
+
+# #######
+# RAG_Systems/postgres_uploader/config.py
+# RAG_Systems/RAG_Engine/config.py
+
+# Website_Dashboard/script.js
+
+
+
+
+# ==========================================
+# PYTHON CACHE AND VIRTUAL ENVIRONMENTS
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+venv/
+.venv/
+env/
+ENV/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ==========================================
+# ENVIRONMENT VARIABLES AND SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+
+secrets/
+credentials/
+.aws/
+.aws-sam/
+
+*.pem
+*.key
+*accessKeys*.csv
+*credentials*.csv
+
+# ==========================================
+# LOGS
+# ==========================================
+*.log
+logs/
+**/logs/
+
+# ==========================================
+# AWS LAMBDA BUILD ARTIFACTS
+# ==========================================
+**/lambda_build/
+Lambda/*.zip
+RAG_Systems/RAG_Engine/lambda_package.zip
+
+# ==========================================
+# GENERATED RAG DATA
+# ==========================================
+**/chunks/
+**/embeddings/
+**/extracted/
+
+# ==========================================
+# TEMPORARY FILES
+# ==========================================
+*.tmp
+*.temp
+*.bak
+tempCodeRunnerFile.py
+
+# ==========================================
+# MODEL TRAINING TEMPORARY FILES
+# ==========================================
+train_data/
+*.pkl
+*.joblib
+
+# ==========================================
+# NODE AND FRONTEND
+# ==========================================
+node_modules/
+dist/
+build/
+.next/
+
+# ==========================================
+# IDE AND OPERATING SYSTEM
+# ==========================================
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
